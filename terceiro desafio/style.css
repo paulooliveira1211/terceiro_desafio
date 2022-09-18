@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {      
+  background-image: url("images/pattern-background-desktop.svg");
+  
+  background-repeat: no-repeat;
+  background-position: relative;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;      
+}
+.principal {     
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;  
+  margin-top: 4%;
+  background-color: hsl(225, 80%, 92%);   
+}
+.imagem img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+.conteudo h1 {
+  font-size: 18px;
+}
+.conteudo p {
+  padding-top: 13px;
+  width: 90%;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.planos {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.planos img {
+  max-width: 30px;
+  max-height: 30px;
+}
+.planos-info {
+  margin-left: -50px;
+}
+.planos-info h4 {
+  font-size: 10px;
+}
+.planos a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: hsl(223, 47%, 23%);
+}
+.botao {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.botao button {
+  width: 100%;
+  text-decoration: none;
+  padding: 10px;
+  background-color: hsl(224, 23%, 55%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.botao a {
+  font-size: 12px;
+  padding-top: 30px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+footer {
+  margin-top: 5%;
+}
+
+@media (max-width: 450px) {
+  body {    
+    padding-top: 15%;            
+  }
+  footer {
+    padding-top: 20%;
+  }
+}
